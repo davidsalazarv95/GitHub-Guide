@@ -19,4 +19,25 @@ Rinse and repeat commands as you change your repository.
 If you think of Git as taking snapshots of changes over the life of a project,
 git add specifies what will go in a snapshot (putting things in the staging area)
 , and git commit then actually takes the snapshot, and makes a permanent record
-of it (as a commit). g
+of it (as a commit).
+
+So far, Git is tracking the changes in your locale, not in an outside repo. If you
+have created a repo in your locale, then create one in GitHub and then do the following:
+
+$ git remote add origin ssh
+
+If you initialize it with a readme, then you have to pull the changes to the locale:
+
+$ git pull origin master
+
+Then, you can push your locale repo to the outside repo:
+
+$ git push origin master
+
+An alternative, to create in GitHub, clone and then work in your locale:
+
+$ git clone ssh
+
+Will create a local repo on your working dir with the name of the repo. then, you can change directory, and start the process of git add, git commit, and git push.
+
+
