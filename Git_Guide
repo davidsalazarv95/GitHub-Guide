@@ -13,3 +13,5 @@ $ git add mars.tx
 To commit the changes
 
 $ git commit -m "Start Commit"
+
+Rinse and repeat commands as you change your repository. 
