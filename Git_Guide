@@ -5,3 +5,11 @@ $ git init
 Check status
 
 $ git status
+
+To add a file that Git is supposed to start tracking:
+
+$ git add mars.tx
+
+To commit the changes
+
+$ git commit -m "Start Commit"
