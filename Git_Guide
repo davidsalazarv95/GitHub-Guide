@@ -1,0 +1,7 @@
+To initialize git
+
+$ git init
+
+Check status
+
+$ git status
